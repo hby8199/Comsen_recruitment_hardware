@@ -12,3 +12,17 @@ __pycache__/
 /toolchain/arm-gnu-toolchain-*/
 /toolchain/cmake-*/
 /toolchain/ninja-*/
+# 忽略编译生成的中间文件和二进制文件
+build/
+*.hex
+*.bin
+*.o
+*.elf
+
+# 忽略巨大的工具链文件夹
+toolchain/
+arm-gnu-toolchain*
+
+# 忽略视频和压缩包
+*.mp4
+*.zip
